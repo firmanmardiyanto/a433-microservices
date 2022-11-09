@@ -7,7 +7,9 @@
     "start": "node ./bin/www",
     "stop": "pkill -SIGINT ca-app",
     "test": "karma start",
-    "preinstall": "npx npm-force-resolutions"
+    "preinstall": "npx npm-force-resolutions",
+    "docker-build-push": "sh ./build_push_image.sh",
+    "docker-compose-up": "docker-compose up -d"
   },
   "resolutions": {
     "graceful-fs": "^4.2.4"

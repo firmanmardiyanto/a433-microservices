@@ -1,0 +1,3 @@
+docker compose version
+docker compose up -d
+doskey /HISTORY > history-log.txt
